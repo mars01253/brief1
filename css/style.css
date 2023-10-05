@@ -525,7 +525,6 @@ header.sticky{
 	position: relative;
 	right: 10px;
 	padding: 5px 10px;
-	display: flexbox;
 	float: left;
 }
 .sec2 #E1{
@@ -554,19 +553,36 @@ header.sticky{
 	float: left;
 }
 .sec2 input {
-	display: inline-block;
-	position: absolute;
+	position: relative;
 	outline: none;
 	border: none;
 	padding: 7px 15px;
 	border-radius: 15px;
-	top: px;
-	left: 500px;
 	cursor: pointer;
-	
+	margin-left: 60px;
+}
+.sec2 .leb{
+	margin-left: 30px;
 }
 .sec2 textarea{
 	border-radius: 10px;
-	margin: 15px;
+	padding: 10px 15px 10px 15px;
+}
+
+@media(max-width:600px){
+	input {
+		width: 100%;
+		
+	}
+	textarea{
+		width: 100%;
+
+	}
+	.sec2 .button{
+		width: 20%;
+	}
+	
+
+
 
 }
