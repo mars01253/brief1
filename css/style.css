@@ -572,14 +572,24 @@ header.sticky{
 @media(max-width:600px){
 	input {
 		width: 100%;
+		float: right;
 		
 	}
 	textarea{
 		width: 100%;
+		margin: 0px;
 
 	}
 	.sec2 .button{
 		width: 20%;
+		margin: 0px;
+		position: absolute;
+		margin-top: 0px;
+		padding: 5px 5px 5px 5px;
+		top: 10px;
+	}
+	.sec2{
+		padding: 0px 0px;
 	}
 	
 
